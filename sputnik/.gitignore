@@ -6,7 +6,6 @@
 .gradle/
 .project
 .settings
-bin/
 build/
 classes
 out
