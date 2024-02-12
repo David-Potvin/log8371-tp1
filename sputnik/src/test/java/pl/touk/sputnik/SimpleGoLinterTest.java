@@ -34,7 +34,6 @@ public class SimpleGoLinterTest {
         assertTrue(linter.isLineLengthValid("func main() {"));
         assertTrue(linter.isLineLengthValid(stringWith79Chars));
         assertFalse(linter.isLineLengthValid(stringWith79Chars + "a"));
-
     }
 
 }

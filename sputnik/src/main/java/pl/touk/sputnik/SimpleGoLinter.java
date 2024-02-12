@@ -23,7 +23,6 @@ public class SimpleGoLinter {
             return false;
         }
         return Character.isDigit(variableName.charAt(0));
-
     }
 
     boolean isLineLengthValid(String line) {
